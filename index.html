@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu-Subasta</title>
+
+    <!-- Enlaza Bootstrap CSS desde un CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body>
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Quienes somos </span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Preguntas frecuentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <!-- CARROUSEL-->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../images/manoGolpeando.jfif" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/manoLevantada.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/subasta.jfif" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section>
+        <!-- Quienes somos-->
+
+        <div class="quienesSomos ">
+            <h2>Quienes somos</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet laudantium nesciunt, distinctio deserunt
+                unde adipisci, earum asperiores maiores quisquam nihil sunt saepe. Laudantium distinctio suscipit
+                voluptatem voluptatibus dolor atque tempore</p>
+        </div>
+    </section>
+
+    <section>
+        <!-- Cards-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/antiguo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Modernos</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/nuevo4.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Antiguos</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/vivo.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Subasta en vivo</h5>
+                        <p class="card-text">
+                            En esta seccion podras encontrar las subastas en vivo y obtener informacion de los proximos encuentros.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario-->
+
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Comments</label>
+    </div>
+
+
+    <!-- Enlaza Bootstrap JavaScript desde un CDN (antes del cierre del cuerpo) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
