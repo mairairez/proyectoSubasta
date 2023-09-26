@@ -1,12 +1,13 @@
 
-.carousel-fade{
-    width: 100%;
-    height: 30%;
-}
-.quienesSomos{
-    padding: 10px;
-}
 
-.row{
-    padding: 10px;
-}
+@import "reset.css";
+@import "variables.css";
+@import "navbar.css";
+@import "carrousel.css";
+@import "hero.css";
+@import "quien.css";
+@import "cards.css";
+@import "columna.css";
+@import "formulario.css";
+@import "footer.css";
+

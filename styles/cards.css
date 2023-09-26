@@ -1,0 +1,45 @@
+.titulo-cartas {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .titulo-cartas h2 {
+    font-size: 20px; 
+    margin-bottom: 20px;
+    font-family: Montserrat;
+  }
+  p{
+    padding: 8px;
+    font-family: system-ui;
+  }
+  h5 {
+    font-weight: bold;
+    font-size: large;
+  }
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+  
+ div .card a{
+    text-decoration: none;
+    color: black;
+ }
+ div .card a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    box-shadow: 15px 15px 20px;
+    
+ }
+
+  @media (max-width: 768px) {
+    .row.row-cols-1.row-cols-md-3.g-4 {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .col {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
