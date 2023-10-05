@@ -1,0 +1,67 @@
+.formulario {
+    max-width: 45%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px; 
+    border: 1px solid rgba(91, 91, 91, 0.305);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media (max-width: 768px) {
+    .formulario {
+        width: 100%;
+        padding: 15px; 
+    }
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333; 
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+}
+
+
+textarea.form-control {
+    resize: vertical; 
+}
+button.btn{
+    width: 100%;
+}
+
+.btn {
+    background-color: #ffffff; 
+    color: #4b4b4b; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #000000; 
+    color: #ffffff; 
+    font-size: large;
+}
+.btn:active {
+    transform: translateY(5px);
+    background-color: #000000;
+}
+
+.form-check-input:checked {
+    background-color: #000000; 
+    border-color: #ffffff; 
+}
+h5{
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}

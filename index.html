@@ -9,11 +9,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Css -->
   <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
   <!-- BARRA DE NAVEGACION -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
     <div class="container">
       <a class="navbar-brand">
         <img src="images/tesoro_dorado__1_-removebg-preview.png" class="img-responsive logo-desktop" height="65px"
@@ -37,6 +39,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#formulario">Contacto</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vivo.html#vivos">Vivos</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -56,21 +61,24 @@
       <div class="carousel-item active">
         <img src="images/carrousel1.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Subasta en vivo</h5>
+          <h5>¿Queres formar parte de nuestras <br>
+            subasta en vivo?</h5>
           <a href="vivo.html" class="boton">Ingrese aquí</a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="images/carrousel2.jfif" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Subasta en vivo</h5>
+          <h5>¿Queres formar parte de nuestras <br>
+            subasta en vivo?</h5>
           <a href="vivo.html" class="boton">Ingrese aquí</a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="images/carrousel3.jfif" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Subasta en vivo</h5>
+          <h5>¿Queres formar parte de nuestras <br>
+            subasta en vivo?</h5>
           <a href="vivo.html" class="boton">Ingrese aquí</a>
         </div>
       </div>
@@ -86,61 +94,138 @@
   </div>
 
 
-  
+
   <!-- cartas -->
-  <div class="titulo-cartas">
-    <h2>Descubre Nuestros Productos</h2>
-    <p>Explora una amplia selección de productos nuevos y antiguos, y participa en emocionantes subastas en vivo.</p>
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+  <div class="cards">
+    <div class="titulo-cartas">
+      <h2>Descubre Nuestros Productos</h2>
+      <p class="p-carta">Explora una amplia selección de productos nuevos y antiguos, y participa en emocionantes
+        subastas en vivo.</p>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
 
-          <div class="card h-100">
-            <a href="productos.html#nuevos">
-              <img src="images/nuevo4.jfif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Productos Nuevos</h5>
-                <p class="card-text">"Descubre la emoción de nuestras subastas de productos nuevos. Desde dispositivos
-                  tecnológicos hasta moda de vanguardia, encuentras lo último y mejor a precios competitivos. ¡Únete a
-                  la aventura de las subastas!"</p>
-              </div>
-            </a>
+            <div class="card h-100">
+              <a href="productos.html#nuevos">
+                <img src="images/nuevo4.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Productos Nuevos</h5>
+                  <p class="card-text">"Descubre la emoción de nuestras subastas de productos nuevos. Desde dispositivos
+                    tecnológicos hasta moda de vanguardia, encuentras lo último y mejor a precios competitivos. ¡Únete a
+                    la aventura de las subastas!"</p>
+                </div>
+              </a>
+            </div>
+
           </div>
 
-        </div>
+          <div class="col">
 
-        <div class="col">
-
-          <div class="card h-100">
-            <a href="productos.html#antiguos">
-              <img src="images/antiguo.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Productos Antiguos</h5>
-                <p class="card-text">"Explora nuestra fascinante subasta de productos antiguos. Descubre tesoros del
-                  pasado, desde reliquias históricas hasta arte clásico. ¡Revive la nostalgia y haz ofertas únicas en
-                  objetos atemporales!"<br><br>
-                </p>
-              </div>
-            </a>
+            <div class="card h-100">
+              <a href="productos.html#antiguos">
+                <img src="images/antiguo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Productos Antiguos</h5>
+                  <p class="card-text">"Explora nuestra fascinante subasta de productos antiguos. Descubre tesoros del
+                    pasado, desde reliquias históricas hasta arte clásico. ¡Revive la nostalgia y haz ofertas únicas en
+                    objetos atemporales!"
+                  </p>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <a href="vivo.html">
-              <img src="images/vivo.2.jfif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Subastas en vivo</h5>
-                <p class="card-text">"Sumérgete en la emoción de nuestras subastas en vivo. Experimenta la adrenalina de
-                  pujar en tiempo real por artículos exclusivos mientras interactúas con otros entusiastas. ¡Únete a la
-                  acción ahora!"</p>
-              </div>
-            </a>
+          <div class="col">
+            <div class="card h-100">
+              <a href="vivo.html">
+                <img src="images/vivo.2.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Subastas en vivo</h5>
+                  <p class="card-text">"Sumérgete en la emoción de nuestras subastas en vivo. Experimenta la adrenalina
+                    de
+                    pujar en tiempo real por artículos exclusivos mientras interactúas con otros entusiastas. ¡Únete a
+                    la
+                    acción ahora!"</p>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  <!-- noticias -->
+  <div class="noti-fondo">
+    <div class="noticia">
+      <div class="imagen">
+        <img class="imag" src="images/casa.jfif" alt="Imagen de la noticia">
+      </div>
+      <div class="contenido" id="noti">
+        <h2 class="h2-noti">Título de la Noticia</h2>
+        <p class="p-noti ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget nunc justo.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulario -->
+  <div class="formulario" id="formulario">
+    <h5>Envianos tu consulta</h5>
+
+    <form>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+          placeholder="Escribe tu mensaje o consulta"></textarea>
+      </div>
+      <fieldset class="row mb">
+        <legend class="col-form-label col-sm-3 pt-0">Motivo del mensaje</legend>
+      </fieldset>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+        <label class="form-check-label" for="exampleRadios1">
+          Compra
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+        <label class="form-check-label" for="exampleRadios2">
+          Venta
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+        <label class="form-check-label" for="exampleRadios2">
+          Ambos
+        </label>
+      </div><br>
+      <button type="submit" class="btn ">Enviar</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#nav">Volver arriba</a>
+          </div>         
+          <div class="footer-social">
+            <ul>              
+              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          &copy; 2023 Maira Ramirez | Todos los derechos reservados
+        </div>
+      </div>
+    </footer>
 
 
   <!-- Enlaza Bootstrap JavaScript desde un CDN (antes del cierre del cuerpo) -->

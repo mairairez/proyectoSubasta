@@ -7,7 +7,12 @@
 @import "hero.css";
 @import "quien.css";
 @import "cards.css";
-@import "columna.css";
+@import "noticias.css";
 @import "formulario.css";
 @import "footer.css";
 
+
+body{
+    background-color: #F5F5F5;
+
+}
