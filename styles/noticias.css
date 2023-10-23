@@ -1,7 +1,8 @@
-.noti-fondo{
+.noti-fondo {
     background-color: #F5F5F5;
 
 }
+
 .noticia {
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -28,6 +29,10 @@
 
 .contenido {
     flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .h2-noti {
@@ -57,12 +62,21 @@
         padding: 0;
         text-align: center;
     }
+
+    .h2-noti {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .p-noti {
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (max-width: 1100px) and (min-width: 768px) {
     .imag {
         height: 100%;
         width: auto;
-        /* Esto asegura que la relación de aspecto se mantenga */
     }
 }
