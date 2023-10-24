@@ -68,4 +68,4 @@ btnResumen.addEventListener('click', totalPagar);
 function resetTotal(){
     totalPago.innerHTML = "";
 }
-btnBorrar.addEventListener('click', resetTotal);
+btnBorrar.addEventListener('click', resetTotal); 
