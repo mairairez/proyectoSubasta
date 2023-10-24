@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Css -->
   <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <!-- Icons -->
+  <!-- Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
@@ -40,7 +40,7 @@
             <a class="nav-link" href="#formulario">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="vivo.html#vivos">Vivos</a>
+            <a class="nav-link vivo" href="vivo.html#vivos">Comprar entrada</a>
           </li>
         </ul>
       </div>
@@ -162,7 +162,10 @@
       </div>
       <div class="contenido" id="noti">
         <h2 class="h2-noti">Compramos los Tesoros de tu Hogar</h2>
-        <p class="p-noti ">En Tesoro Dorado, buscamos adquirir los tesoros de tu hogar. Desde muebles hasta objetos decorativos, nos interesa todo lo que pueda encontrarse dentro de una casa. Si tienes artículos que ya no necesitas o deseas vender, ¡contáctanos hoy mismo! Nuestro equipo está listo para hacer ofertas justas y brindarte una forma sencilla de darle un nuevo hogar a tus tesoros.</p>
+        <p class="p-noti ">En Tesoro Dorado, buscamos adquirir los tesoros de tu hogar. Desde muebles hasta objetos
+          decorativos, nos interesa todo lo que pueda encontrarse dentro de una casa. Si tienes artículos que ya no
+          necesitas o deseas vender, ¡contáctanos hoy mismo! Nuestro equipo está listo para hacer ofertas justas y
+          brindarte una forma sencilla de darle un nuevo hogar a tus tesoros.</p>
       </div>
     </div>
   </div>
@@ -170,16 +173,15 @@
   <!-- Formulario -->
   <div class="formulario" id="formulario">
     <h5>Envianos tu consulta</h5>
-
     <form>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
       </div>
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-          placeholder="Escribe tu mensaje o consulta"></textarea>
+        <textarea class="form-control" id="mensaje" rows="3"
+          placeholder="Escribe tu mensaje o consulta" required></textarea>
       </div>
       <fieldset class="row mb">
         <legend class="col-form-label col-sm-3 pt-0">Motivo del mensaje</legend>
@@ -202,32 +204,32 @@
           Ambos
         </label>
       </div><br>
-      <button type="submit" id="enviar" class="btn ">Enviar</button>
-      <button type="submit" id="borrar" class="btn">Borrar</button>
+      <button type="btnEnviar" id="btnEnviar" class="btn btnEnviar ">Enviar</button>
+      <button type="btnBorrar" id="btnBorrar" class="btn btnBorrar">Borrar</button>
 
     </form>
   </div>
 
   <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-logo">
-            <a href="#nav">Volver arriba</a>
-          </div>         
-          <div class="footer-social">
-            <ul>              
-              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-              <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-              <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
-            </ul>
-          </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#nav">Volver arriba</a>
         </div>
-        <div class="footer-copyright">
-          &copy; 2023 Maira Ramirez | Todos los derechos reservados
+        <div class="footer-social">
+          <ul>
+            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+          </ul>
         </div>
       </div>
-    </footer>
+      <div class="footer-copyright">
+        &copy; 2023 Maira Ramirez | Todos los derechos reservados
+      </div>
+    </div>
+  </footer>
 
 
   <!-- Enlaza Bootstrap JavaScript desde un CDN (antes del cierre del cuerpo) -->

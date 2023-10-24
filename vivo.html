@@ -40,12 +40,88 @@
             <a class="nav-link" href="index.html#formulario">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#vivos">Vivos</a>
+            <a class="nav-link vivo1" href="vivo.html#vivos">Comprar entrada</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+
+  <section class="conte pt-section">
+    <div class="cont">
+      <div class="titulo-cartas">
+        <h3>¡Promociones!</h3>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                   <div class="card-body">
+                    <h5 class="card-title title">30/10/2023</h5>
+                    <p class="card-title">Tiene un descuento de </p>
+                    <h4 class="card-title"> 80%</h4>
+                    <small>* Presentar comprobante de pago</small>
+                  </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title title">06/11/2023</h5>
+                    <p class="card-title">Tiene un descuento de</p>
+                    <h4 class="card-title"> 50%</h4>
+                    <small>* Presentar comprobante de pago</small>
+                  </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title title">13/11/2023</h5>
+                    <p class="card-title">Tiene un descuento de </p>
+                    <h4 class="card-title"> 15%</h4>
+                    <small>* Presentar comprobante de pago</small>
+                  </div>
+              </div>
+            </div>
+            <div class="valorEntradas">
+            <h5>Valor de la entrada $200</h5>          
+          </div>
+        <div class="col-md-12 formu">
+          <form action="">
+            <table class="table">
+              <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" class="form-control" placeholder="Nombre" required>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" class="form-control" placeholder="Apellido" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" class="form-control" placeholder="Email" required>
+                <label for="cantidad">Cantidad</label>
+                <input type="number" id="cantTicket" class="form-control" placeholder="Cantidad" min="1" required>
+                <label for="fechas">Eleccion de fecha</label><br>
+                <select class="form-select" id="fechaSelec" name="fecha" class="select">
+                  <option value selected>-- Seleccione --</option>
+                  <option value="1">30/10/2023</option>
+                  <option value="2">06/11/2023</option>
+                  <option value="3">13/11/2023</option>
+                </select> <br><br>
+                <div class="alert alert-primary mt-2 mb-4" role="alert"> 
+                  " Total a pagar: $ 
+                  <span id="totalPago" class="align-middle">"</span>
+                </div>              
+                <button type="button" class="w-100 btn btn-lg btn-form" id="btnResumen">Resumen</button>
+                <button type="reset" class="w-100 btn btn-lg btn-form" id="btnBorrar">Borrar</button>
+              </form>
+            </table>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 
   <section class="video-section">
     <h1>Videos en Vivo</h1>
@@ -58,37 +134,36 @@
         allowfullscreen></iframe>
     </div>
 
-    <div class="comment-form">
-      <h3>Deja tus comentarios o preguntas</h3>
-      <form action="#">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        <label for="comentario">Comentario:</label>
-        <textarea id="comentario" name="comentario" rows="4" required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
-    </div>
 
     <div>
-      <h2 class="v-ant">Videos anteriores</h2>    
-    <div class="video-cards">
-      <div class="video-card">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/vQoR7gJTirk?si=cKVyIXANjbIA5xpC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>       
-         <h3>Video 1</h3>
-        <p>Descripción del Video 1.</p>
-      </div>
-      <div class="video-card">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7PIji8OubXU?si=uOU7dL1Jq5j1X5Nx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <h3>Video 2</h3>
-        <p>Descripción del Video 2.</p>
-      </div>
-      <div class="video-card">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7ZP7TWiOrDs?si=nNRCc7qzlRYdXV7F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <h3>Video 3</h3>
-        <p>Descripción del Video 3.</p>
+      <h2 class="v-ant">Videos anteriores</h2>
+      <div class="video-cards">
+        <div class="video-card">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/vQoR7gJTirk?si=cKVyIXANjbIA5xpC"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+          <h3>Video 1</h3>
+          <p>Descripción del Video 1.</p>
+        </div>
+        <div class="video-card">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7PIji8OubXU?si=uOU7dL1Jq5j1X5Nx"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+          <h3>Video 2</h3>
+          <p>Descripción del Video 2.</p>
+        </div>
+        <div class="video-card">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7ZP7TWiOrDs?si=nNRCc7qzlRYdXV7F"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+          <h3>Video 3</h3>
+          <p>Descripción del Video 3.</p>
+        </div>
       </div>
     </div>
-  </div>
 
 
   </section>
@@ -116,4 +191,5 @@
   </div>
   <!-- Enlaza Bootstrap JavaScript desde un CDN (antes del cierre del cuerpo) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="vivo.js"></script>
 </body>

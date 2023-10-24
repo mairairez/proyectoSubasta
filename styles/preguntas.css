@@ -61,7 +61,7 @@
     text-align: center;
     margin-top: 20px;
     font-size: 15px;
-    /* Tamaño de fuente para el texto de derechos de autor */
+   
 }
 
 footer-content {
@@ -79,22 +79,37 @@ footer-content {
     margin-bottom: 20px;
   }
   
-  /* Estilos para cada pregunta y respuesta */
+  
   .faq-item {
     margin-bottom: 20px;
   }
   
   .pregunta {
-    background-color: #FDFEFE; /* Fondo de la pregunta */
-    color: #000000; /* Color del texto de la pregunta */
+    background-color: #FDFEFE;
+    color: #000000;
     padding: 10px;
     border-radius: 5px;
   }
   
   .respuesta {
-    background-color: #ECF0F1; /* Fondo de la respuesta */
-    color: #000000; /* Color del texto de la respuesta */
-    padding: 10px;
+    background-color: #ECF0F1; 
+    color: #000000; 
+        padding: 10px;
     border-radius: 5px;
   }
+  
+.vivo{
+  background-color: rgba(216, 216, 216, 0.658);
+  border: 2px solid rgb(73, 73, 73);
+  border-radius: 20px;
+}
+.vivo:hover{
+  font-size: large;
+  background-color: rgba(230, 230, 230, 0.658);
+  border: 2px solid rgb(73, 73, 73);
+  border-radius: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.1s linear;
+
+}
   
